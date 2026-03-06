@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo Login</title>
+    <link rel="shortcut icon" href="./assets/github-logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            font-family: "Outfit", sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen max-w-md bg-base-200 mx-auto">
+
+    <section>
+    <div class="login w-[100px] mx-auto pt-5">
+        <img src="./assets/github-logo.png" alt="" >
+    </div>
+    <div class="pt-4 text-center">
+        <h3>GitHub lssues Tracker</h3>
+        <p class="text-[#64748B]">Sign in to manage your issues</p>
+
+    </div>
+    </section>
+
+    <div class="form pt-10">
+        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow mx-auto rounded-2xl">
+           <div class="card-body">
+              <fieldset class="fieldset">
+                    <label class="label text-neutral font-bold">Usarname</label>
+                    <input id="input-number" maxlength="11" minlength="11" type="email" class="input rounded-full bg-base-200" value="admin" />
+
+                    <br>
+
+                    <label class="label text-neutral font-bold">password</label>
+                    <input id="input-pin"  type="password" class="input rounded-full bg-base-200" placeholder="admin123" />
+
+                    <br>
+
+                    <button  id="login-btn" class="btn btn-primary mt-4 rounded-full  font-bold">Sign In</button>
+              </fieldset>
+
+            <div class="bg-gray-100 mx-auto w-[300px] h-[130px] rounded-2xl mt-5">
+                <div class="text-center m-10">
+                    <h3>Usarname :admin </h3>
+                    <h3>password :admin123 </h3>
+                </div>
+            </div>
+
+           </div>
+       </div>
+    </div>
+
+
+    <script src="./java.js"></script>
+</body>
+</html>
