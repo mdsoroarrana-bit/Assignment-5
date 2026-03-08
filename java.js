@@ -3,7 +3,7 @@ document.getElementById('login-btn')
     // 1 mobile number
     const numberInput = document.getElementById("input-number")
     const contactNumber = numberInput.value;
-    console.log(contactNumber);
+    // console.log(contactNumber);
     // 2 pin
     const pinInput = document.getElementById("input-pin")
     const pin = pinInput.value;
